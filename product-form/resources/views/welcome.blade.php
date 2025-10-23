@@ -64,7 +64,10 @@
                     <td contenteditable="true">{{ $product->price }}</td>
                     <td>{{ $product->created_at }}</td>
                     <td>{{ $total }}</td>
-                    <td><button class="btn btn-sm btn-success updateBtn">Save</button></td>
+                    <td>
+                        <button class="btn btn-sm btn-success updateBtn">Save</button>
+                        <button class="btn btn-sm btn-danger deleteBtn">Delete</button>
+                    </td>
                 </tr>
             @endforeach
             <tr>
